@@ -530,7 +530,6 @@ case $state in
                       '(-e --envs)'{-e,--envs}'[list all known conda environments]' \
                       '(-l --license)'{-l,--license}'[display information about local conda licenses list]' \
                       '(-s --system)'{-s,--system}'[list environment variables]' \
-                      '--root[display root environment path]' \
                       '*:packages:__describe_conda_package_available' \
         ;;
     (help)
